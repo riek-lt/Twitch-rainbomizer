@@ -16,3 +16,6 @@ If you have Twitch Turbo or Twitch Prime, set this to `true` for the ultimate co
 
 # Created by
 Riekelt [(twitter)](http://twitter.com/riek_lt) [(twitch)](http://twitch.tv/riekelt)
+
+# Acknowledgements
+The idea and name came from [Parik's Randomizer](https://github.com/Parik27/Rainbomizer).
