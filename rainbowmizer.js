@@ -1,7 +1,7 @@
-const interval = 60;
-const username = 'your name'
-const oAuth = 'your oauth key'
-const isTuro = false; //If you have Twitch turbo or prime, change this to true
+const interval = 60; //Interval in seconds
+const username = "your name"
+const oAuth = "your oauth key"
+const isTurbo = false; //If you have Twitch turbo or prime, change this to true
 
 let irc = require('tmi.js');
 let color = '';
@@ -35,10 +35,10 @@ setInterval(function() {
 }, interval * 1000);
 
 function callfunction() {
-    if (isTuro) {
+    if (isTurbo) {
         color = '#' + hexCaller();
     } else {
-        color = twitchDefaultColours[randomIntInc(twitchDefaultColours.length, 0)]
+        color = twitchDefaultColours[randomIntInc(twitchDefaultColours.length)]
     }
     client.color(color);
 }
@@ -46,12 +46,12 @@ function callfunction() {
 function hexCaller() {
     let hexCaller = '';
     for (let i = 0; i < 6; i++) {
-        hexCaller += colorOptions[randomIntInc(colorOptions.length, 0)];
+        hexCaller += colorOptions[randomIntInc(colorOptions.length)];
     }
     return hexCaller;
 }
 
 //random number generator
-function randomIntInc(high, low) {
-    return Math.floor(Math.random() * (high - low) + low);
+function randomIntInc(high) {
+    return Math.floor(Math.random() * high);
 }
