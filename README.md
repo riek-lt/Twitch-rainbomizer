@@ -19,3 +19,4 @@ Riekelt [(twitter)](http://twitter.com/riek_lt) [(twitch)](http://twitch.tv/riek
 
 # Acknowledgements
 The idea and name came from [Parik's Randomizer](https://github.com/Parik27/Rainbomizer).
+Thanks to [Vuurvos1](https://github.com/Vuurvos1/) for optimizing the code
