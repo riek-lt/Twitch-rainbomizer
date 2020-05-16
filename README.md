@@ -2,7 +2,8 @@
 Change your twitch name colour every X amount of time!
 
 # Installation
-Make sure NPM and Nodejs are installed.  
+Make sure [Nodejs](https://nodejs.org/en/download/) and NPM are installed.  
+Windows users: Install [Git](https://git-scm.com/download/win) for the advanced Command Line Interface (Git Bash),
 
 ```npm install tmi.js```  
 
