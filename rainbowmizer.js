@@ -5,7 +5,6 @@ const isTurbo = false; //If you have Twitch turbo or prime, change this to true
 
 let irc = require('tmi.js');
 let color = '';
-let hexVal = '';
 const twitchDefaultColours = ['Blue', 'BlueViolet', 'CadetBlue', 'Chocolate', 'Coral', 'DodgerBlue', 'Firebrick', 'GoldenRod', 'Green', 'HotPink', 'OrangeRed', 'Red', 'SeaGreen', 'SpringGreen', 'YellowGreen'];
 
 let OPTIONS = {
@@ -36,8 +35,7 @@ setInterval(function() {
 
 function callfunction() {
   if (isTurbo) {
-    hexVal = (Math.floor(Math.random() * 16777215)).toString(16).padStart(0, 6);
-    color = '#' + '000000'.substr(0, 6 - color.length) + color;
+    color = '#' + (Math.floor(Math.random() * 16777215)).toString(16).padStart(0, 6);
   } else {
     color = twitchDefaultColours[randomIntInc(twitchDefaultColours.length)]
   }
