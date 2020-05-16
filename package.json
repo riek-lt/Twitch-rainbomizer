@@ -1,0 +1,24 @@
+{
+  "name": "twitch-rainbowmizer",
+  "version": "1.0.0",
+  "description": "Change your twitch name colour every X amount of time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riek-lt/Twitch-rainbowmizer.git"
+  },
+  "keywords": [
+    "color",
+    "randomizer",
+    "rainbow"
+  ],
+  "author": "Riekelt G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riek-lt/Twitch-rainbowmizer/issues"
+  },
+  "homepage": "https://github.com/riek-lt/Twitch-rainbowmizer#readme"
+}
